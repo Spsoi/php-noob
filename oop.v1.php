@@ -22,9 +22,10 @@ class MathComplex ## Новый класс с именем
     $this ## Переменная
     ->## Оператор
   im +=$im;
-    
-    public static function getSizes(){
-		return array('small','medium','large');
+	  
+## Статической метод(функция)
+public static function getSizes(){ 
+return array('small','medium','large');
 }
 }
 }
