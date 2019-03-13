@@ -22,8 +22,11 @@ class MathComplex ## Новый класс с именем
     $this ## Переменная
     ->## Оператор
   im +=$im;
-  }
-
+    
+    public static function getSizes(){
+		return array('small','medium','large');
+}
+}
 }
 
 $obj ## Экземпляр класса (Копия)
@@ -32,6 +35,7 @@ $obj ## Экземпляр класса (Копия)
 $obj->re = 6;   ## Член объекта = свойство = переменная
 $obj->im = 101; ## Член объекта = свойство = переменная
 
+$sizes = Entree::getSizes(); ## Вызов статического методо(функции)
 ?>
   </body>
 </html>
